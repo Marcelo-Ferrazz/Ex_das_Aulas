@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Sweet and Love</title>
+</head>
+<body>
+    <main>
+        <form method="post" action="dferrazz@hotmail.com">
+            <h2>Preencha seus dados</h2>
+            <input type="text" name="nome" placeholder="Nome" required>
+            <br>
+            <input type="number" name="idade" placeholder="Idade" required>
+            <br>
+            <input type="email" name="email" placeholder="E-mail" required>
+            <br>
+            
+            <h2>Você nos indicaria a um amigo ?</h2>
+            <label for="sim">Sim</label>
+            <input id="sim" type="radio" name="indicação" required>
+
+            <label for="não">Não</label>
+            <input id="não" type="radio" name="indicação" required>
+
+            <h2>O que lhe agradou mais em nossa loja ?</h2>
+            <label for="doces">Doces</label>
+            <input type="checkbox" id="doces">
+            
+            <label for="ambiente">Ambiente</label>
+            <input type="checkbox" id="ambiente">
+
+            <label for="entrega">Entrega do Pedido</label>
+            <input type="checkbox" id="entrega">
+            
+            <label for="atendimento">Atendimento</label>
+            <input type="checkbox" id="atendimento">
+            
+            <label for="valores">Valores</label>
+            <input type="checkbox" id="valores">
+            
+            <h2>Qual foi seu último pedido ?</h2>
+            <input autocomplete="on" list="pedido" name="produtos" id="produtos" required>
+            <datalist id="pedido">
+                <option value="brigadeiro">brigadeiro</option>
+                <option value="cocada">cocada</option>
+                <option value="beijinho">beijinho</option>
+                <option value="olho de sogra">olho de sogra</option>
+                <option value="cajuzinho">cajuzinho</option>
+                <option value="bem casado">bem casado</option>
+                <option value="coxinha">coxinha</option>
+                <option value="pão de alho">pão de alho</option>
+                <option value="salsicha assada">salsicha assada</option>
+                <option value="quibe">quibe</option>
+                <option value="empanado presunto e queijo">empanado presunto e queijo</option>
+            </datalist>
+            
+            <h2>Em qual de nossas lojas foi atendido ?</h2>
+            <select name="lojas" id="lojas" required>
+                <option value=""></option>
+                <option value="acli">Aclimação</option>
+                <option value="liber">Liberdade</option>
+                <option value="tatu">Tatuapé</option>
+                <option value="são">São Joaquim</option>
+            </select>
+            <br>
+            <input type="submit" name="enviar"required>
+        </form>
+    </main>
+    
+</body>
+</html>
