@@ -1,0 +1,37 @@
+@charset "utf-8";
+body {
+    background-color: white;
+    color: #000000;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    background-color: #111;
+    color: hsl(39, 100%, 50%);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    line-height: 200%;
+    text-shadow: 3px 3px 5px #ff8c00;
+}
+h2 {
+    background-color:#111;
+    color: #ff8c00;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+p {
+    font-size: 0.9em;
+    text-indent: 3em;
+    text-align: center;
+}
+ul {
+    font-weight: bold;
+    text-indent: 0.5em;
+}
+footer {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 0, 0);
+    font-size: 0.75em;
+    text-align: center;
+    font-style: italic;
+}
