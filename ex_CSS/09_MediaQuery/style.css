@@ -1,0 +1,43 @@
+@charset "utf-8";
+body {
+ font-family: "Tahoma", sans-serif;
+ background: #333;
+}
+
+.col {
+    background-color: #fff;
+    width: 49%;
+    height: 50vh;
+    margin: 5px;
+    float: left;
+}
+h3{
+    text-align: right;
+}
+
+.col img{
+    width: 100%;
+    height: 50vh;
+}
+
+.col2 img {
+    width: 100%;
+    height: 47vh;
+}
+
+.col2{
+    background-color: #fff;
+    float: left;
+    width: 24.3%;
+    height: 47vh;
+    margin: 5px;
+}
+
+@media(max-width:768px) {
+    .col {
+    width: 100%;
+    }
+    .col2{
+        width: 100%;
+    }
+}
