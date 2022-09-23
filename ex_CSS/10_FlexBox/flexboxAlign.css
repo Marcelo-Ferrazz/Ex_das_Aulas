@@ -1,9 +1,11 @@
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+
 
 body{
-    /* text-align: center; */
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
+    font-family: 'Akaya Kanadaka', cursive;
+    font-size: 30px;
+    text-shadow: black 10px 5px 20px;
 }
 .container{
     display: flex;
@@ -12,6 +14,9 @@ body{
 img{
     width: 400px;
     height: 400px;
+}
+img:hover{
+    transform: scale(2);
 }
 
 .card-1{
