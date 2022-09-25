@@ -4,33 +4,37 @@ body {
  background: #333;
 }
 
+img{
+    width: 330px;
+    height: 247px;
+}
+
+.col2 img{
+    width: 60%;
+}
+
 .col {
-    background-color: #fff;
     width: 49%;
-    height: 50vh;
-    margin: 5px;
+    float: left;
+    box-sizing: border-box;
+}
+.price-box img{
     float: left;
 }
-h3{
-    text-align: right;
-}
 
-.col img{
-    width: 100%;
-    height: 50vh;
-}
-
-.col2 img {
-    width: 100%;
-    height: 47vh;
+.price-box {
+    background: #fff;
+    color: #555;
+    border: 1px solid #555;
+    margin: 3px;
+    padding: 0;
+    font-size: 22.4px;
 }
 
 .col2{
-    background-color: #fff;
     float: left;
-    width: 24.3%;
-    height: 47vh;
-    margin: 5px;
+    width: 24.5%;
+    box-sizing: border-box;
 }
 
 @media(max-width:768px) {
