@@ -5,7 +5,9 @@
 body{
     font-family: 'Akaya Kanadaka', cursive;
     font-size: 30px;
-    text-shadow: black 10px 5px 20px;
+    text-shadow: black 10px 5px 20px;background-image: url(https://2.bp.blogspot.com/-OYm4chmEKRs/ULVRFLeR1RI/AAAAAAAAE7M/7Ftti4XbOcA/s1600/Wallpaper+Bob+Esponja+-+Premium+Design+3D+.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .container{
     display: flex;
