@@ -137,14 +137,3 @@ footer{
     background-color:#314a20;
     color: #fff;
 }
-@media(max-width:768px) {
-    .first-line {
-    width: 100%;
-    }
-    .two-box{
-        width: 100%;
-    }
-    .three-box{
-        width: 100%;
-    }
-}
