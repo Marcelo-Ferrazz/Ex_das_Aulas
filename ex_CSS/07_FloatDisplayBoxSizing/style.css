@@ -25,7 +25,7 @@ img{
     height: 400px;
 }
 
-.esquerda p{
+.esquerda p,.direita p{
     padding: 150px 0 ;
     font-size: 35px;
 }
@@ -36,9 +36,4 @@ img{
 
 .direita figure {
     float: left;
-}
-
-.direita p{
-    padding: 150px 0 ;
-    font-size: 35px;
 }
