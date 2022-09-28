@@ -8,13 +8,9 @@ body{
     margin: auto;
     padding: 30px;
     font-size: 25px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'oswald', sans-serif;
 }
 
-img{
-    width: 300px;
-    margin-right: 50px;
-}
 
 #pipoca{
     border: 2px solid #000;
@@ -24,20 +20,25 @@ img{
     border-radius: 50px;
 }
 
-h3,h2{
-    font-size: 40px;
-    margin: 20px 0;
+img{
+    width: 400px;
+    height: 400px;
 }
 
-.esquerda{
-    display: flex;
+.esquerda p{
+    padding: 150px 0 ;
+    font-size: 35px;
 }
 
-.direita{
-    display: flex;
-    flex-direction: row-reverse;
+.esquerda figure{
+    float: right;
 }
 
-.direita figure{
-    margin-left: 50px;
+.direita figure {
+    float: left;
+}
+
+.direita p{
+    padding: 150px 0 ;
+    font-size: 35px;
 }
