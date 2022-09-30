@@ -91,6 +91,8 @@ h3{
     text-decoration: none;
     color: white;
     padding: 5px;
+    position: relative;
+    left: 170px;
 }
 .btn:hover{
     opacity: 0.8;
