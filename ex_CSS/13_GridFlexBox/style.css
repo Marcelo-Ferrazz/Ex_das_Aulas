@@ -13,13 +13,25 @@ body{
 }
 
 #header-harry{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     background-color: #B57F43;
     overflow: auto;
+    max-width: 1200px;
+    margin: auto;
+    font-size: xx-large;
+    text-decoration: underline;
+    margin-bottom: 30px;
+    padding: 25px;
 }
 
-a{
-    color: #333;
-    text-decoration: none;
+#header-harry h1{
+    grid-column: 2 / 4;
+    margin: auto;
+}
+
+#header-harry img{
+    margin: auto;
 }
 
 .container{
@@ -36,6 +48,7 @@ a{
 
 .card{
     background-color: #e9d97f;
+    position: relative;
 }
 
 .card h3{
@@ -44,18 +57,24 @@ a{
     text-decoration: underline;
 }
 
+.card p{
+    padding: 45px 0;
+}
+
 .card>div{
     padding: 2rem;
 }
 
 .btn{
     display: inline-block;
+    text-decoration: none;
     background: #884c4c;
     border-radius: 15px;
     color: #fff;
     padding: 0.8rem 1.8rem;
-    margin-top: 2rem;
-    cursor: pointer;
+    position: absolute;
+    left: 2%;
+    bottom: 2%;
 }
 
 .btn:hover{
