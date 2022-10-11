@@ -5,4 +5,4 @@ var fisica = 5;
 
 var media = (portugues + matematica + ingles + fisica) / 4;
 
-console.log("A média do aluno com as 4 notas é : " + ( media ));
+console.log("A média do aluno com as 4 notas é : " +  media );
