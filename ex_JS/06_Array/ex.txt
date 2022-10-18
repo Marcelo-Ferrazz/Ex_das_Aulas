@@ -1,0 +1,8 @@
+para mim um OBJETO é de fato algo como um computador ou carro, isso é um objeto, 
+é um conteudo completo exemplo ao inves de dizer eu acelero , 
+viro o volante e vou para meu trabalho simplemente digo vou de carro.
+
+
+para mim um METODO é tudo aquilo com que faz o carro se mover
+ e fazer com que eu me locomova de um local para outro, 
+ ou como um computador faça eu estar digitando e tudo que eu escrever aaparecer nesse tela.
