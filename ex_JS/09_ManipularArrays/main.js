@@ -3,8 +3,8 @@ number.forEach(verificacao)
 function verificacao(valor) {
     if (valor % 2 == 0)
     {
-    console.log(`esse é par ${valor}`)
+    console.log(`${valor} é par `)
     }else {
-    console.log(`esse é impar ${valor}`)
+    console.log(`${valor} é impar `)
     }
 }
