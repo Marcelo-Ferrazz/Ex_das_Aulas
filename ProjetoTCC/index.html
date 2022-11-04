@@ -57,37 +57,32 @@
             </div>
         </div>
     </nav>
-
-    <header class="header bg-secondary text-center">
-        <h1>FALE CONOSCO PELO WHATSAPP</h1>
-        <p class="p">Além de nossas linhas telefônicas, e-mail e site, agora você pode tirar suas dúvidas através do
-            WhatsApp
-        </p>
-        <a href="#"><img src="./img/whatsapp.png" alt="whatsapp" width="90"></a>
-    </header>
-    <main>
-        <section class="container">
-            <h1>CONTATO</h1>
+    <main class="container">
+        <section class="card">
             <form action="#">
+                <h1>CONTATO</h1>
                 <label class="form-label">Nome Completo</label>
-                <input type="text" class="form-control">
+                <input type="text" class="form-control" style="width: 90%;">
                 <label class="form-label">E-mail</label>
-                <input type="email" class="form-control">
+                <input type="email" class="form-control"style="width: 90%;">
                 <label class="form-label">Contato</label>
-                <input type="number" class="form-control">
-                <hr>
-                <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Dúvidas">
-                <datalist id="datalistOptions">
-                    <option value="Elogio"></option>
-                    <option value="Reclamações"></option>
-                    <option value="Sugestões"></option>
-                    <option value="Outros"></option>
-                </datalist>
-                <textarea class="form-control" placeholder="Adicione uma Mensagem"></textarea>
+                <input type="number" class="form-control"style="width: 90%;">
+                
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown button
+                    </button>
+                    <ul class="dropdown-menu" >
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </div>
+                <textarea class="form-control" style="width: 90%;" placeholder="Adicione uma Mensagem"></textarea>
                 <input class="btn" type="submit" placeholder="Enviar">
             </form>
         </section>
-        <section class="endereco text-center fs-3">
+        <section class="card endereco text-center fs-3">
             <h1>ENDEREÇOS</h1>
             <p>Sede: Rua das Municipalidades, 191, Ipiranga, São Paulo - SP</p>
             <p>Showroom Campinas: Av. José de Souza Campos, 2335, Cambui, Campinas - SP</p>

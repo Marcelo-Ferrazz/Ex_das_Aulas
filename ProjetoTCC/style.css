@@ -1,20 +1,31 @@
 * {
     margin: 0;
     padding: 0;
+    /* box-sizing: border-box; */
+}
+
+/* .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 1100px;
+    margin: auto;
+    overflow: auto;
+    padding: 0 2rem;
+} */
+
+.card {
+    float: left;
+    width: 50%;
+    padding: 8px;
+    margin: auto;
     box-sizing: border-box;
 }
 
-.header {
-    padding: 6% 1% 0 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
 
-.header p {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+@media(max-width:500px) {
+    .col {
+        width: 50%;
+    }
 }
 
 .container .btn {
@@ -28,5 +39,5 @@ footer {
     height: 50px;
     margin: auto;
     bottom: 0;
-    position: relative;
+    position: fixed;
 }
