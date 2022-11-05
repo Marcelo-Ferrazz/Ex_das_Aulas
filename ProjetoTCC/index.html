@@ -11,9 +11,9 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-dark fixed-top" style="background-color: #171717;">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Motors Fast Power</a>
+            <img src="./img/LOGOdaEMPRESA.png" alt="logo" width="250" height="100"> 
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                 data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
                 <span class="navbar-toggler-icon"></span>
@@ -57,53 +57,42 @@
             </div>
         </div>
     </nav>
-
-    <header class="header bg-secondary text-center">
-        <h1>FALE CONOSCO PELO WHATSAPP</h1>
-        <p class="p">Além de nossas linhas telefônicas, e-mail e site, agora você pode tirar suas dúvidas através do
-            WhatsApp
-        </p>
-        <a href="#"><img src="./img/whatsapp.png" alt="whatsapp" width="90"></a>
-    </header>
-    <main>
-        <section class="container">
-            <h1>CONTATO</h1>
+    <main class="container text-light">
+        <section class="col fs-4">
             <form action="#">
-                <label class="form-label">Nome Completo</label>
-                <input type="text" class="form-control">
-                <label class="form-label">E-mail</label>
-                <input type="email" class="form-control">
-                <label class="form-label">Contato</label>
-                <input type="number" class="form-control">
-                <hr>
-                <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Dúvidas">
-                <datalist id="datalistOptions">
-                    <option value="Elogio"></option>
-                    <option value="Reclamações"></option>
-                    <option value="Sugestões"></option>
-                    <option value="Outros"></option>
-                </datalist>
-                <textarea class="form-control" placeholder="Adicione uma Mensagem"></textarea>
-                <input class="btn" type="submit" placeholder="Enviar">
+                <h1 class="heading text-center">CONTATO</h1>
+                <label class="form-label">Nome Completo</label required>
+                <input type="text" class="form-control" style="width: 90%;">
+                <label class="form-label">E-mail</label required>
+                <input type="email" class="form-control"style="width: 90%;">
+                <label class="form-label">Contato</label required>
+                <input type="number" class="form-control"style="width: 90%;">
+
+                <select class="btn btn-secodary text-bg-secondary" name="option" id="option" required>
+                    <option value="duv">Dúvidas</option>
+                    <option value="elo">Elogios</option>
+                    <option value="cri">Críticas</option>
+                    <option value="other">Outros</option>
+                </select>
+                    
+                <textarea class="form-control" style="width: 90%;" placeholder="Adicione uma Mensagem"></textarea>
+                <input class="btn text-bg-secondary" type="submit" placeholder="Enviar">
             </form>
         </section>
-        <section class="endereco text-center fs-3">
+        <section class="col endereco text-center fs-2">
             <h1>ENDEREÇOS</h1>
             <p>Sede: Rua das Municipalidades, 191, Ipiranga, São Paulo - SP</p>
             <p>Showroom Campinas: Av. José de Souza Campos, 2335, Cambui, Campinas - SP</p>
             <p>contato@exclusivagroup.com.br</p>
             <h1>Telefones</h1>
-            <p>(11) 3372-8800</p>
-            <p>(11) 98058-0289</p>
+            <p>(11) 3372-8800 <img src="./img/telefone-tipico-antigo.png" alt="phone" width="33"> </p>
+            <p>(11) 98058-0289 <img src="./img/whatsapp.png" alt="whatsapp" width="33"> </p>
             <br>
         </section>
     </main>
-    <footer class="footer navbar-fixed-bottom bg-secondary text-center fs-3">
+    <footer class="footer navbar-fixed-bottom text-center fs-3">
         <p>Copyright &copy; 2022 Todos os Direitos Reservados</p>
     </footer>
-    <!-- <footer class="Rodape text-center fs-5 bg-secondary p-1">
-    </footer> -->
-    <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
