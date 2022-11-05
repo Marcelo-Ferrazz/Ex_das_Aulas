@@ -1,7 +1,5 @@
-// console.log(window);
-// window.alert("Seja Bem-Vindo");
-
-console.log(document.title);
+window.alert("Boas vindas")
+document.title = "Dominando js"
 
 var section = document.createElement("section");
 document.body.appendChild(section);
