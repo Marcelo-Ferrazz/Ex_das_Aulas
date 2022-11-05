@@ -1,41 +1,40 @@
-function item1() {
-  let item1 = document.getElementById("item1");
-  item1.style.backgroundColor = "blue";
+function Alterador1() {
+  const item1 = document.getElementById('item1');
+  item1.style.backgroundColor = 'aqua';
   console.log(item1);
 }
 
-function items() {
-  let items = document.getElementsByClassName("item");
-  items[2].style.fontWeight = "bold";
-  console.log(items);
+function Alterador2() {
+  let item2 = document.getElementsByClassName('item');
+  item2[1].style.fontWeight = 'bold';
+  console.log(items[1]);
 }
 
-function li() {
-  let li = document.getElementsByTagName("li");
+function Alterador3() {
+  let li = document.getElementsByTagName('li');
   console.log(li);
   for (let i = 0; i < li.length; i++) {
-    if (i % 2) li[i].style.backgroundColor = "#f4f4f4";
-    else li[i].style.backgroundColor = "#fff";
+      if (i % 2) li[i].style.backgroundColor = 'darkgray';
+      else li[i].style.backgroundColor = 'fff';
   }
 }
 
-function fitem() {
-  let nome = document.getElementsByName("fitem");
-  nome[0].style.borderBottom = "solid 2px #000";
+function Alterador4() {
+  let nome = document.getElementsByName('fitem');
+  nome[0].style.borderBottom = 'solid 5px red';
   console.log(nome);
 }
 
-function item2() {
-  let item2 = document.getElementById("item2");
-  item2.remove();
-  console.log(item2);
+let item5 = document.getElementById('item5');
+
+function Alterador5(){
+  item5.remove();
 }
 
-function reset() {
-    let lista = document.getElementById("items");
-    let item1 = document.getElementById("item1");
-    let item2 = document.getElementById("item2");
-    lista.insertBefore(item2, item1.nextSibling);
-  item2.textContent = "recuperado";
-  console.log(item2);
+let lista = document.getElementById('items');
+let item4 = document.getElementById('item4');
+
+function Alterador6(){
+  lista.insertBefore(item5, item4.nextSibling);
+  item5.textContent = 'Item recuperado';
 }

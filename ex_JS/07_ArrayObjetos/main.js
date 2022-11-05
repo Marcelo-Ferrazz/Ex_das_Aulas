@@ -1,40 +1,64 @@
-// var nome = "Jéssica "
-// var nota = 9
-// var nota2 = 9
-// var nota3 = 9
-// var nota4 = 9
+/* Array de objetos */
 
-var alunos = [
-    {
-        nome: "Marcelo",
-        texto: 'Levar o lixo para fora',
-        nota: 9,
-        nota2: 10,
-        nota3: 5,
-        nota4: 5,
+let alunos = [
+  {
+    nome: "Mia",
+    idade: 10,
+    notas: [6, 8, 10, 9],
+    sala: "3A",
+    escola: "EM Cabral junior",
+    endereco: {
+      rua: "Rua dos mosqueteiros",
+      numero: 14,
+      cidade: "São Paulo",
+      estado: "SP",
     },
-    {
-        nome: "Colin",
-        texto: 'Encontrar com o chefe',
-        nota: 9,
-        nota2: 9,
-        nota3: 5,
-        nota4: 5,
+    escolaridade: "2 grau do Ensino Médio",
+    responsável: "Matheus - Pai",
+  },
+  {
+    nome: "Thomas",
+    idade: 15,
+    notas: [5, 8, 4, 7],
+    sala: "33",
+    escola: "Capitão Amaral",
+    endereco: {
+      rua: "Rua dos patos",
+      numero: 28,
+      cidade: "São Paulo",
+      estado: "SP",
     },
-    {
-        nome: "Vitor",
-        texto: 'Consulta no dentista',
-        nota: 5,
-        nota2: 5,
-        nota3: 5,
-        nota4: 5,
+    escolaridade: "1 grau do Ensino Médio",
+    responsável: "Maria - Mãe",
+  },
+  {
+    nome: "Gabi",
+    idade: 17,
+    notas: [5, 8, 8, 7],
+    sala: "54",
+    escola: "Capitão Pedroso",
+    endereco: {
+      rua: "Rua alameda salete",
+      numero: 89,
+      cidade: "São Paulo",
+      estado: "SP",
     },
+    escolaridade: "1 grau do Ensino Médio",
+    responsável: "Marcos - Pai",
+  },
 ];
 
-var mediaNotas = (nota + nota2 + nota3 + nota4) / 4;
-console.log(mediaNotas)
-if (mediaNotas >= 7)
-    console.log("Aprovado")
-else
-    console.log("Reprovado")
-console.log(alunos)
+let soma = 0;
+let media = 0;
+let aprov = 0;
+
+for (let x = 0; x < alunos.length; x++) {
+  soma = 0;
+  for (let i = 0; i < alunos[x].notas.length; i++) soma += alunos[x].notas[i];
+
+  media = soma / alunos[x].notas.length;
+  console.log(`media ${media}`);
+
+  aprov = media >= 7 ? "aprovado" : "reprovado";
+  console.log(` Aluno ${aprov}`);
+}
