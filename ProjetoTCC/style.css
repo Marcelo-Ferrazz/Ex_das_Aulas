@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    user-select: nonegit ;
 }
 
 body{
@@ -13,7 +14,7 @@ body{
 .col {
     float: left;
     width: 50%;
-    padding-top: 20%;
+    padding-top: 10%;
     margin: auto;
 
 }
