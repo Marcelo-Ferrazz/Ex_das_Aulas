@@ -1,13 +1,12 @@
-import './App.css';
-import Cadastro from './Components/Cadastro';
-import Endereço from './Components/Endereço';
-
+import "./App.css";
+import Cadastro from "./Components/Cadastro";
+import Endereco from "./Components/Endereco";
 
 function App() {
   return (
     <div className="App">
       <Cadastro />
-      <Endereço />
+      <Endereco />
     </div>
   );
 }

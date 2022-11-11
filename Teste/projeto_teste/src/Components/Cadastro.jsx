@@ -5,7 +5,7 @@ const Cadastro = () => {
     <section>
       <h1 class="heading text-center">CONTATO</h1>
       <label class="form-label">Nome Completo</label>
-      <input type="text" class="form-control"/>
+      <input type="text" class="form-control" />
       <label class="form-label">E-mail</label>
       <input type="email" class="form-control " />
       <label class="form-label">Contato</label>

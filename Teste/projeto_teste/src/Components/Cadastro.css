@@ -4,7 +4,8 @@
     box-sizing: border-box;
     user-select: none;
 }
-body{ 
+
+body {
     background-size: cover;
     background-attachment: fixed;
     float: left;
