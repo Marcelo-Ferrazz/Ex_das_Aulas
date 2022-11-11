@@ -1,8 +1,8 @@
-import React from "react";
+import "./Cadastro.css";
 
 const Endereco = () => {
   return (
-    <div>
+    <div id="login" className="text-center fs-2">
       <h1>ENDEREÇOS</h1>
       <p>Sede: Rua das Municipalidades, 191, Ipiranga, São Paulo - SP</p>
       <p>

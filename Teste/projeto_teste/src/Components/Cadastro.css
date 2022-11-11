@@ -1,21 +1,17 @@
-* {
-    margin-left: 1%;
+*{
+    margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    user-select: none;
 }
 
-body {
-    background-size: cover;
-    background-attachment: fixed;
-    float: left;
+#login{
     width: 50%;
-    padding-top: 10%;
-    margin: auto;
+    height: 50%;
+    margin: 2%;
 }
 
-@media(max-width:1100px) {
-    .col {
+
+/* @media(max-width:1100px) {
+    .login {
         width: 100%;
     }
-}
+} */

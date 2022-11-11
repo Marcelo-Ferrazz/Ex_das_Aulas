@@ -2,7 +2,7 @@ import "./Cadastro.css";
 
 const Cadastro = () => {
   return (
-    <section>
+    <section id="login">
       <h1 class="heading text-center">CONTATO</h1>
       <label class="form-label">Nome Completo</label>
       <input type="text" class="form-control" />
@@ -11,7 +11,7 @@ const Cadastro = () => {
       <label class="form-label">Contato</label>
       <input type="number" class="form-control" />
       <select
-        class="btn btn-secodary text-bg-secondary"
+        class="btn btn-secodary text-bg-secondary mt-3"
         name="option"
         id="option"
         required
@@ -26,7 +26,7 @@ const Cadastro = () => {
         class="form-control"
         placeholder="Adicione uma Mensagem"
       ></textarea>
-      <input class="btn text-bg-secondary" type="submit" placeholder="Enviar" />
+      <input class="btn text-bg-secondary mt-3" type="submit" placeholder="Enviar" />
     </section>
   );
 };
