@@ -5,35 +5,40 @@ class Conteudo extends Component {
     super(props);
     this.state = {
       read: false,
-      like:false,
-      deslike:false,
+      like: false,
+      deslike: false,
     };
   }
-  
 
   render() {
     return (
       <div>
-        <h2>h</h2>
-        <p>lkshtejtej</p>
-        <p>Você leu {this.state.read} vezes</p>
+        <h2>Componentes com Classe</h2>
+        <p style={{textDecoration:"underline"}}>aonde ao clicar no botão, será alterado o texto a cima </p>
+        <p id="lido">Você não leu</p>
         <button
-          onClick={() => this.setState({ read: true})}
+          onClick={() => {
+              let read = document.getElementById("lido");
+              read.innerHTML = "Você leu !";
+          }}
         >
-          Clique aqui
+          clique se tiver lido
         </button>
 
-        <p>Você Gostou {this.state.like} vezes</p>
-        <button
-          onClick={() => this.setState({ like: true})}
-        
+        <p id="like">Dê seu like se tiver gostado</p>
+        <button onClick={() => {
+          let like = document.getElementById("like");
+              like.innerHTML = "Você gostou ! ";
+        }}
         >
           Like
         </button>
 
-        <p>Você Gostou {this.state.deslike} vezes</p>
-        <button
-          onClick={() => this.setState({ deslike: true })}
+        <p id="deslike">Dê seu deslike se não tiver gostado</p>
+        <button onClick={() => {
+          let deslike = document.getElementById("deslike");
+          deslike.innerHTML = "Como podemos melhorar ? ";
+        }}
         >
           Deslike
         </button>
