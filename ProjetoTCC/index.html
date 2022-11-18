@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-dark fixed-top" style="background-color: #171717;">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #171717;">
         <div class="container-fluid">
             <img src="./img/LOGOdaEMPRESA.png" alt="logo" width="150" height="50"> 
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
@@ -26,18 +26,18 @@
                         aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
-                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <ul class="navbar-nav justify-content-center flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link text-light fs-3" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Sobre nós</a>
+                            <a class="nav-link text-light fs-3" href="#">Sobre</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Perguntas Frequentes</a>
+                            <a class="nav-link text-light fs-3" href="#">Perguntas</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            <a class="nav-link text-light dropdown-toggle fs-3" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
                                 Modelos
                             </a>
@@ -57,6 +57,18 @@
             </div>
         </div>
     </nav>
+
+    <div class="card border-dark bg-success mb-3 text-center" style="max-width: 60rem;">
+        <div class="card-header border-dark bg-transparent border-success"></div>
+        <h3 class="fs-3" style="text-decoration: underline;">Agende sua locação</h3>
+        <div class="card-body text-success">
+          <input class="w-50" style="height:2.1rem" type="text" placeholder="texto">
+          <input class="w-20" style="height:2rem" type="date" placeholder="data">
+          <input class="w-20" style="height:2rem" type="time" placeholder="hora">
+        </div>
+        <div class="card-footer border-dark bg-transparent border-success"></div>
+      </div>
+
     <main class="container text-light">
         <section class="col fs-4">
             <form action="#">

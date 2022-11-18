@@ -9,6 +9,11 @@ body{
     background-image: url(./img/fundoTCC.jpg);
     background-size: cover;
     background-attachment: fixed;
+    align-items: center;
+}
+
+.card{
+    margin: auto;
 }
 
 .col {
